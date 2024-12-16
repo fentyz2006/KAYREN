@@ -1,18 +1,16 @@
 import React from 'react';
-import moment from 'moment';
-import { Calendar, momentLocalizer } from 'react-big-calendar';
-import 'react-big-calendar/lib/css/react-big-calendar.css';
+import './CalendarView.css';
 
-const localizer = momentLocalizer(moment);
-
-const CalendarView = ({ events }) => (
-  <Calendar
-    localizer={localizer}
-    events={events}
-    startAccessor="start"
-    endAccessor="end"
-    style={{ height: 500 }}
-  />
-);
+const CalendarView = ({ events }) => {
+  return (
+    <div className="calendar-view">
+      {events.map(event => (
+        <div key={event.id} className="calendar-event">
+          {event.title}: {event.start.toLocaleDateString()} - {event.end.toLocaleDateString()}
+        </div>
+      ))}
+    </div>
+  );
+};
 
 export default CalendarView;

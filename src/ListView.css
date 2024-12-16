@@ -1,0 +1,19 @@
+.list-view {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .list-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .list-item:last-child {
+    border-bottom: none;
+  }
+  
+  .list-item .icon {
+    margin-right: 10px;
+  }

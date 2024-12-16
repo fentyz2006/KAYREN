@@ -1,12 +1,16 @@
-import React, { useEffect } from 'react';
-import Gantt from 'frappe-gantt';
+import React from 'react';
+import './GanttChartView.css';
 
 const GanttChartView = ({ tasks }) => {
-  useEffect(() => {
-    new Gantt('#gantt', tasks);
-  }, [tasks]);
-
-  return <div id="gantt"></div>;
+  return (
+    <div className="gantt-chart-view">
+      {tasks.map(task => (
+        <div key={task.id} className="gantt-task">
+          {task.name}: {task.start} - {task.end} ({task.progress}%)
+        </div>
+      ))}
+    </div>
+  );
 };
 
 export default GanttChartView;

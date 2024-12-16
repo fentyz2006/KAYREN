@@ -1,0 +1,7 @@
+.gantt-task {
+    background: linear-gradient(to right, #4caf50, #8bc34a);
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 5px;
+    color: #fff;
+  }
