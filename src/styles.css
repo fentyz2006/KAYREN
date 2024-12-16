@@ -1,0 +1,10 @@
+body {
+    background-color: #f0f0f0;
+  }
+  
+  .kanban-board {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Add more styles here */

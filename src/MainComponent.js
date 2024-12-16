@@ -3,6 +3,7 @@ import KanbanBoard from './components/KanbanBoard';
 import ListView from './components/ListView';
 import CalendarView from './components/CalendarView';
 import GanttChartView from './components/GanttChartView';
+import './styles.css';
 
 const tasks = {
   'To Do': [{ id: '1', title: 'Task 1' }, { id: '2', title: 'Task 2' }],
