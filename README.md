@@ -1,3 +1,35 @@
+#KAYREN PROJECT
+
+KAYREN is built for app which integrated multi-functions like:
+* **Tasking:** support multi-purpose and connect to extesions to help work easier. This easily to manage and customize to fit every situation.
+* **Note:** taking one step of note when you can take note everywhere, send or even share to your partner.
+* **Role Managment:** fully controling all role of your project
+* **Social Platform:** connect people to people, hiring job and work together.
+* **Chat:** you can chat with your partner in your project or chat with your friend.
+
+## Technologies Used
+
+* React
+* JavaScript
+* HTML
+* CSS
+
+## Instalation
+
+In progress, not available to instal yet. You can get the lastest information from us via version or social media.
+
+## License
+
+( Updating . . .)
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
